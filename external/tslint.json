@@ -1,0 +1,19 @@
+{
+	"extends": ["tslint-config-standard"],
+	"rules": {
+		"semicolon": false,
+		"typedef": [true, "call-signature"],
+		"prefer-const": true,
+		"no-unnecessary-type-assertion": false,
+		"space-before-function-paren": [false],
+		"ter-indent": [false],
+		"no-inferrable-types": true,
+		"strict-type-predicates": false,
+		"indent": [true, "tabs", 2],
+		"trailing-comma": true,
+		"no-angle-bracket-type-assertion": false,
+		"whitespace": false,
+		"no-floating-promises": false,
+		"quotemark":"jsx-double"
+	}
+}

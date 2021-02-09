@@ -1,0 +1,99 @@
+.navbar-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 auto;
+	height: 70px;
+	padding: 0 12px 0 0;
+}
+#page-topbar {
+	/* position: fixed;
+	 top: 0; */
+	right: 0;
+	left: 0;
+	z-index: 1002;
+	background-color: #2a3042;
+	box-shadow: 0 0.75rem 1.5rem rgb(18 38 63 / 3%);
+}
+.d-flex {
+	display: flex !important;
+}
+.navbar-brand-box {
+	padding: 0 1.5rem;
+	text-align: center;
+	width: 250px;
+}
+.logo {
+	line-height: 70px;
+}
+.d-inline-block {
+	display: inline-block !important;
+}
+.dropdown {
+	position: relative;
+}
+.ms-compositeHeader {
+	display: none;
+}
+.rounded-circle {
+	border-radius: 50% !important;
+}
+.header-profile-user {
+	height: 36px;
+	width: 36px;
+	background-color: #f6f6f6;
+	padding: 3px;
+}
+.dx-buttongroup .dx-widget {
+	background-color: #ffffff;
+}
+.buttons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.buttons-column {
+	justify-content: center;
+	flex-basis: 100px;
+	margin: 5px;
+	float: left;
+}
+
+.CanvasZone,
+[class*="homePageContent_"] {
+	max-width: 100% !important;
+}
+[class*="pageTitle_"] {
+	display: none !important;
+}
+
+.badge {
+	display: inline-block;
+	padding: 0.25em 0.4em;
+	font-size: 75%;
+	font-weight: 500;
+	line-height: 1;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+	-webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+		-webkit-box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+		-webkit-box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+		box-shadow 0.15s ease-in-out;
+	transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+		box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.badge-danger {
+	color: #fff;
+	background-color: #f46a6a;
+}
+
+.badge-pill {
+	padding-right: 0.6em;
+	padding-left: 0.6em;
+	border-radius: 10rem;
+}

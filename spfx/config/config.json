@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "initiative-grid-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/initiativeGrid/InitiativeGridWebPart.js",
+          "manifest": "./src/webparts/initiativeGrid/InitiativeGridWebPart.manifest.json"
+        }
+      ]
+    },
+    "header-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/header/HeaderApplicationCustomizer.js",
+          "manifest": "./src/extensions/header/HeaderApplicationCustomizer.manifest.json"
+        }
+      ]
+    },
+    "initiative-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/initiativeForm/InitiativeFormWebPart.js",
+          "manifest": "./src/webparts/initiativeForm/InitiativeFormWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InitiativeGridWebPartStrings": "lib/webparts/initiativeGrid/loc/{locale}.js",
+    "HeaderApplicationCustomizerStrings": "lib/extensions/header/loc/{locale}.js",
+    "InitiativeFormWebPartStrings": "lib/webparts/initiativeForm/loc/{locale}.js"
+  }
+}

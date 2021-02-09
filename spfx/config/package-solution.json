@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "stsm-client-side-solution",
+    "id": "a2989f32-6e97-48d6-ab2a-13d9550c279e",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": false,
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "cd780714-e244-4f3b-aeca-8411224a5df8",
+        "version": "1.0.0.2",
+        "assets": {
+          "elementManifests": ["elements.xml"]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/stsm.sppkg"
+  }
+}
